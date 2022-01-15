@@ -1,22 +1,10 @@
 
-Matrimonial Website using Node.js & MySql
+INSTRUCTIONS TO FOLLOW:
 
-### Installations
-```
-sudo apt-get install nodejs
-sudo apt-get install mysql-server
-```
-### Setup
-
-Import existing database
-  - `create database matrimony` 
-  - `sudo mysql -u root -p matrimony < /path/to/this/repo/matrimony.sql`
-### Start Server
-```
-cd /path/to/app/directory
-node app.js
-```
-### Launch App
-```
-visit http://127.0.0.1:8081/
-```
+1) Open terminal in the project directory and do the following:
+  1.1) npm install express,path,express-session,moment,body-parser,mysql,split-string,querystring,multer,express-         fileupload,dialog,underscore 
+2) Start the apache and the mysql servers using XAMMP
+3) Open up phpmyadmin and create a new database called node_matrimony
+4) Import the file matrimony.sql onto phpmyadmin using the "import" option.
+5) Use the command node app.js to start start the web browser
+6) Open the webpage by using the address http://127.0.0.1:8081/
